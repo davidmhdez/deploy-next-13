@@ -1,0 +1,10 @@
+.select-menu .MuiMenu-paper{
+    border: 1px solid #DBDBDC;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px -3px rgba(7, 7, 7, 0.08);
+    margin-top: 2px;
+}
+
+.select-menu ul{
+    padding: 0;
+}

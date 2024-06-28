@@ -1,0 +1,410 @@
+/* Main typography */
+@font-face {
+  font-family: 'Prelo-Book';
+  src: url('/fonts/prelo/Prelo-Book.otf');
+}
+
+@font-face {
+  font-family: 'Prelo-Exbd';
+  src: url('/fonts/prelo/Prelo-Exbd.otf');
+}
+
+@font-face {
+  font-family: 'Prelo-Bold';
+  src: url('/fonts/prelo/Prelo-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Prelo-ExtraLight';
+  src: url('/fonts/prelo/Prelo-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: 'Prelo-SemiBold';
+  src: url('/fonts/prelo/Prelo-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Prelo-Black';
+  src: url('/fonts/prelo/Prelo-Black.otf');
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-Book.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-Exbd.otf');
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-ExtraLight.otf');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-ExtraLight.otf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-Light.otf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-SemiBold.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Prelo';
+  src: url('/fonts/prelo/Prelo-Black.otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'PreloSlab';
+  src: url('/fonts/prelo/PreloSlab-ExBd.otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'PreloSlab-Bold';
+  src: url('/fonts/prelo/PreloSlab-Bold.otf');
+}
+
+@font-face {
+  font-family: 'PreloSlab-SemiBold';
+  src: url('/fonts/prelo/PreloSlab-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'PreloSlab-Light';
+  src: url('/fonts/prelo/PreloSlab-Light.otf');
+}
+
+@font-face {
+  font-family: 'PreloSlab-Book';
+  src: url('/fonts/prelo/PreloSlab-Book.otf');
+}
+
+@font-face {
+  font-family: 'PreloSlab-ExBd';
+  src: url('/fonts/prelo/PreloSlab-ExBd.otf');
+}
+
+@font-face {
+  font-family: 'PreloSlab';
+  src: url('/fonts/prelo/PreloSlab-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'PreloSlab';
+  src: url('/fonts/prelo/PreloSlab-SemiBold.otf');
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'PreloSlab';
+  src: url('/fonts/prelo/PreloSlab-Light.otf');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'PreloSlab';
+  src: url('/fonts/prelo/PreloSlab-Book.otf');
+  font-weight: normal;
+}
+
+/*Icons package*/
+
+@font-face {
+  font-family: 'pmiles';
+  src: url('/fonts/pmiles/pmiles.eot?12035483');
+  src: url('/fonts/pmiles/pmiles.eot?12035483#iefix')
+  format('embedded-opentype'),
+  url('/fonts/pmiles/pmiles.woff2?12035483') format('woff2'),
+  url('/fonts/pmiles/pmiles.woff?12035483') format('woff'),
+  url('/fonts/pmiles/pmiles.ttf?12035483') format('truetype'),
+  url('/fonts/pmiles/pmiles.svg?12035483#pmiles') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'pmiles', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: '\e800';
+}
+.icon-wishlist:before {
+  content: '\e801';
+}
+.icon-user:before {
+  content: '\e802';
+}
+.icon-menu:before {
+  content: '\e803';
+}
+.icon-arrow:before {
+  content: '\e804';
+}
+.icon-vuelos:before {
+  content: '\e805';
+}
+.icon-hoteles:before {
+  content: '\e806';
+}
+.icon-auto:before {
+  content: '\e807';
+}
+.icon-tickets:before {
+  content: '\e808';
+}
+.icon-productos:before {
+  content: '\e809';
+}
+.icon-aerolinea:before {
+  content: '\e80a';
+}
+.icon-arrow-circular:before {
+  content: '\e80b';
+}
+.icon-calendar:before {
+  content: '\e80c';
+}
+.icon-clase:before {
+  content: '\e80d';
+}
+.icon-destino:before {
+  content: '\e80e';
+}
+.icon-escalas:before {
+  content: '\e80f';
+}
+.icon-horario:before {
+  content: '\e810';
+}
+.icon-origen:before {
+  content: '\e811';
+}
+.icon-settings:before {
+  content: '\e812';
+}
+.icon-izq:before {
+  content: '\e813';
+}
+.icon-aprobada:before {
+  content: '\e814';
+}
+.icon-ida-y-vuelta-1:before {
+  content: '\e815';
+}
+.icon-casa:before {
+  content: '\e816';
+}
+.icon-buscar:before {
+  content: '\e817';
+}
+.icon-money:before {
+  content: '\e818';
+}
+.icon-promo:before {
+  content: '\e819';
+}
+.icon-tarjeta:before {
+  content: '\e81a';
+}
+.icon-total:before {
+  content: '\e81b';
+}
+.icon-canjee:before {
+  content: '\e81c';
+}
+.icon-consumos:before {
+  content: '\e81d';
+}
+.icon-utilice:before {
+  content: '\e81e';
+}
+.icon-cerrar:before {
+  content: '\e81f';
+}
+.icon-visa:before {
+  content: '\e820';
+}
+.icon-mastercard:before {
+  content: '\e821';
+}
+.icon-buscar-productos:before {
+  content: '\e822';
+}
+.icon-audio-tech:before {
+  content: '\e823';
+}
+.icon-decoracion:before {
+  content: '\e824';
+}
+.icon-deportivos:before {
+  content: '\e825';
+}
+.icon-joyas:before {
+  content: '\e826';
+}
+.icon-regalos:before {
+  content: '\e827';
+}
+.icon-reserva:before {
+  content: '\e828';
+}
+.icon-canje:before {
+  content: '\e829';
+}
+.icon-categoria:before {
+  content: '\e82a';
+}
+.icon-check:before {
+  content: '\e82b';
+}
+.icon-eliminar:before {
+  content: '\e82c';
+}
+.icon-envio:before {
+  content: '\e82d';
+}
+.icon-facturacion:before {
+  content: '\e82e';
+}
+.icon-resumen:before {
+  content: '\e82f';
+}
+.icon-seguro:before {
+  content: '\e830';
+}
+.icon-infantil:before {
+  content: '\e831';
+}
+.icon-solo-ida:before {
+  content: '\e832';
+}
+.icon-arrow-abajo:before {
+  content: '\e833';
+}
+.icon-arrow-izq:before {
+  content: '\e834';
+}
+.icon-arrow-circular-abajo:before {
+  content: '\e835';
+}
+.icon-arrow-circular-izq:before {
+  content: '\e836';
+}
+.icon-proceso:before {
+  content: '\e837';
+}
+.icon-explore:before {
+  content: '\e839';
+}
+.icon-carrito:before {
+  content: '\e83b';
+}
+.icon-cart-1:before {
+  content: '\e83c';
+}
+.icon-check-1:before {
+  content: '\e83d';
+}
+.icon-close:before {
+  content: '\e83e';
+}
+.icon-der:before {
+  content: '\e83f';
+}
+.icon-detalle:before {
+  content: '\e840';
+}
+.icon-down:before {
+  content: '\e841';
+}
+.icon-facturacion-1:before {
+  content: '\e842';
+}
+.icon-infor:before {
+  content: '\e843';
+}
+.icon-profile:before {
+  content: '\e845';
+}
+.icon-trash:before {
+  content: '\e846';
+}
+.icon-up:before {
+  content: '\e847';
+}
+.icon-loc-01:before {
+  content: '\e848';
+}
+.icon-arrow-circular-abajo-only:before {
+  content: '\e84c';
+}
+.icon-arrow-circular-izq-only:before {
+  content: '\e84d';
+}
+.icon-arrow-circular-only:before {
+  content: '\e84e';
+}
+.icon-negada:before {
+  content: '\e84f';
+}
+.icon-solo-vuelta:before {
+  content: '\e854';
+}
+.icon-disney:before {
+  content: '\e857';
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
