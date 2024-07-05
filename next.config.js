@@ -6,6 +6,14 @@ const nextConfig = {
     compiler: {
         styledComponents: true,
     },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'gn-resources.preprodppm.com',
+            }
+        ]
+    },
     poweredByHeader: false,
     async headers() {
         return [
