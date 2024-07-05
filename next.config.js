@@ -10,7 +10,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'gn-resources.preprodppm.com',
+                hostname: process.env.ASSETS_DOMAIN,
             }
         ]
     },
